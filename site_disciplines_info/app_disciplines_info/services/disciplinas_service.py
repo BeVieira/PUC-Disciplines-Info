@@ -20,9 +20,9 @@ def buscar_disciplinas(termo_busca):
         cursor = conexao.cursor()
 
         query = """
-            SELECT nome_disciplina
+            SELECT nome
             FROM disciplinas
-            WHERE nome_disciplina ILIKE %s;
+            WHERE nome ILIKE %s;
         """
         cursor.execute(query, (f"%{termo_busca}%",))
 
