@@ -77,12 +77,8 @@ WSGI_APPLICATION = 'site_disciplines_info.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'sistema_avaliacao',
-        'USER': 'admin', 
-        'PASSWORD': 'senha',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
