@@ -8,6 +8,8 @@ def consultar_view(request):
         codigo = request.POST.get('codigo')
         nome = request.POST.get('nome')
         professor = request.POST.get('professor')
+        dia = request.POST.get('dia')
+        horario = request.POST.get('horario')
 
         if codigo:
             consulta = Disciplina.objects.filter(codigo=codigo)
@@ -16,6 +18,12 @@ def consultar_view(request):
                 consulta = Disciplina.objects.filter(nome__icontains=nome)  
             else:
                 consulta = Disciplina.objects.filter(professor__nome__icontains=professor)
+        
+        if dia:
+            consulta = consulta.filter(dia__icontains=dia)
+        
+        if horario:
+            consulta = consulta.filter(horario__icontains=horario)
 
         for disciplina in consulta:
             chave = (disciplina.codigo, disciplina.nome, disciplina.professor.nome)
