@@ -35,3 +35,11 @@ def consultar_view(request):
     
     return render(request, 'consulta.html')
 
+def disciplina_view(request):
+    codigo = request.GET.get('codigo')
+    horario = request.GET.get('horario')
+    disciplina = Disciplina.objects.filter(codigo__icontais=codigo)
+    disciplina = disciplina.filter(horario__icontais=horario)
+
+
+    return render(request, 'disciplina.html', {'disciplina': disciplina})

@@ -21,4 +21,5 @@ from app_disciplines_info.views import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.consultar_view, name='consultar'),
+    path('disciplina/', views.disciplina_view, name='disciplina'),
 ]
