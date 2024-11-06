@@ -12,7 +12,7 @@ def consultar_view(request):
         horario = request.POST.get('horario')
 
         if codigo:
-            consulta = Disciplina.objects.filter(codigo=codigo)
+            consulta = Disciplina.objects.filter(codigo__icontains=codigo)
         else:
             if nome:
                 consulta = Disciplina.objects.filter(nome__icontains=nome)  

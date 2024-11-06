@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Busca de Disciplinas com Filtro Modal</title>
+</head>
+<body>
+    <div class="alert alert-warning" role="alert">
+        This is a warning alert—check it out!
+      </div>
+    <h1>Busca de Disciplinas</h1>
+    
+    <form action="{% url 'consultar' %}" method="POST">
+        {% csrf_token %}
+        
+        <!-- Campos do formulário principal -->
+        <input type="text" name="codigo" placeholder="Código">
+        <input type="text" name="nome" placeholder="Disciplina">
+        <input type="text" name="professor" placeholder="Professor">
+        
+        <!-- Ícone de filtro que abre o modal -->
+        <span class="filter-icon" onclick="openModal()">&#x1F50D;</span>
+        
+        <!-- Botão de envio -->
+        <button type="submit" class="btn btn-primary">Consultar</button>
+    </form>
+
+    <!-- Modal para os filtros de dias e horários -->
+    <div id="filterModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h3>Filtros</h3>
+            
+            <div class="filters-container">
+                <!-- Filtro de Dia -->
+                <div class="filter-group">
+                    <label><strong>Dia:</strong></label>
+                    <input type="checkbox" name="dia" value="Segunda"> Segunda
+                    <input type="checkbox" name="dia" value="Terça"> Terça
+                    <input type="checkbox" name="dia" value="Quarta"> Quarta
+                    <input type="checkbox" name="dia" value="Quinta"> Quinta
+                    <input type="checkbox" name="dia" value="Sexta"> Sexta
+                </div>
+                
+                <!-- Filtro de Horário -->
+                <div class="filter-group">
+                    <label><strong>Horário:</strong></label>
+                    <input type="checkbox" name="horario" value="7h"> 7h
+                    <input type="checkbox" name="horario" value="9h"> 9h
+                    <input type="checkbox" name="horario" value="11h"> 11h
+                    <input type="checkbox" name="horario" value="13h"> 13h
+                    <input type="checkbox" name="horario" value="15h"> 15h
+                    <input type="checkbox" name="horario" value="17h"> 17h
+                    <input type="checkbox" name="horario" value="18h"> 18h
+                </div>
+            </div>
+            
+            <button onclick="closeModal()">Aplicar Filtros</button>
+        </div>
+    </div>
+
+    <script>
+        // Função para abrir o modal
+        function openModal() {
+            document.getElementById('filterModal').style.display = 'flex';
+        }
+
+        // Função para fechar o modal
+        function closeModal() {
+            document.getElementById('filterModal').style.display = 'none';
+        }
+    </script>
+</body>
+<h3>Resultado</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Código</th>
+            <th>Matéria</th>
+            <th>Professor</th>
+            <th>Horários</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for chave, horarios in resultado.items %}
+        <tr>
+            <td>{{ chave.0 }}</td>
+            <td>{{ chave.1 }}</td>
+            <td>{{ chave.2 }}</td>
+            <td>
+                <span onclick="toggleDropdown('{{ chave.0 }}')" style="cursor:pointer; font-size: 18px;">▼</span>
+            </td>
+        </tr>
+        <tr id="dropdown-{{ chave.0 }}" style="display:none;">
+            <td colspan="4">
+                <ul style="list-style-type: none; padding-left: 0;">
+                    {% for horario in horarios %}
+                        <li>{{ horario }}</li>
+                    {% endfor %}
+                </ul>
+            </td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="4">Nenhum resultado encontrado.</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+</html>
