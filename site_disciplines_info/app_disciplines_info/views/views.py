@@ -10,20 +10,23 @@ def consultar_view(request):
         professor = request.POST.get('professor')
         dia = request.POST.get('dia')
         horario = request.POST.get('horario')
+        filtros = {}
 
         if codigo:
-            consulta = Disciplina.objects.filter(codigo__icontains=codigo)
-        else:
-            if nome:
-                consulta = Disciplina.objects.filter(nome__icontains=nome)  
-            else:
-                consulta = Disciplina.objects.filter(professor__nome__icontains=professor)
-        
+            filtros["codigo__icontains"] = codigo
+        if nome:
+            filtros["nome__icontains"] = nome
+        if professor:
+            filtros["professor__nome__icontains"] = professor
         if dia:
-            consulta = consulta.filter(dia__icontains=dia)
-        
+            filtros["dia__icontains"] = dia
         if horario:
-            consulta = consulta.filter(horario__icontains=horario)
+            filtros["horario__icontains"] = horario
+
+        consulta = Disciplina.objects.filter(**filtros)
+
+        if not consulta.exists():
+            consulta = Disciplina.objects.all()
 
         for disciplina in consulta:
             chave = (disciplina.codigo, disciplina.nome, disciplina.professor.nome)
@@ -33,13 +36,13 @@ def consultar_view(request):
 
         return render(request, 'consulta.html', {'resultado': resultado})
     
-    return render(request, 'consulta.html')
+    return render(request, 'consulta.html', {'resultado': None})
 
-def disciplina_view(request):
-    codigo = request.GET.get('codigo')
-    horario = request.GET.get('horario')
-    disciplina = Disciplina.objects.filter(codigo__icontais=codigo)
-    disciplina = disciplina.filter(horario__icontais=horario)
+def disciplina_view(request, codigo, professor):
+    disciplina = Disciplina.objects.filter(codigo=codigo)
+    disciplina = disciplina.filter(professor__nome=professor)
 
-
-    return render(request, 'disciplina.html', {'disciplina': disciplina})
+    return render(request, 'disciplina.html', 
+                  {'codigo': disciplina[0].codigo,
+                   'nome': disciplina[0].nome,
+                   'professor': disciplina[0].professor.nome})

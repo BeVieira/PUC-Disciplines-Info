@@ -30,8 +30,8 @@
                             
                             <div class="col">
                                 <label><strong>Horário:</strong></label>
-                                <li><input type="checkbox" name="horario" value="7-"> 7h</li>
-                                <li><input type="checkbox" name="horario" value="9-"> 9h</li>
+                                <li><input type="checkbox" name="horario" value="07-"> 7h</li>
+                                <li><input type="checkbox" name="horario" value="09-"> 9h</li>
                                 <li><input type="checkbox" name="horario" value="11-"> 11h</li>
                                 <li><input type="checkbox" name="horario" value="13-"> 13h</li>
                                 <li><input type="checkbox" name="horario" value="15-"> 15h</li>
@@ -61,26 +61,19 @@
         <tbody>
             {% for chave, horarios in resultado.items %}
             <tr>
-                <td>{{ chave.0 }}</td>
-                <td>{{ chave.1 }}</td>
-                <td>{{ chave.2 }}</td>
+                <td class="align-middle">{{ chave.0 }}</td>
+                <td class="align-middle">{{ chave.1 }}</td>
+                <td class="align-middle">{{ chave.2 }}</td>
                 <td>
-                    <span onclick="toggleDropdown('{{ chave.0 }}')" style="cursor:pointer; font-size: 18px;">▼</span>
+                    {% for horario in horarios %}
+                        <a href= "{% url 'disciplina' chave.0 chave.2 %}">{{ horario }}</a><br>
+                    {% endfor %}
                 </td>
-            </tr>
-            <tr id="dropdown-{{ chave.0 }}" style="display:flex;">
-                <td colspan="3" class="table-active">
-                    <ul style="list-style-type: none; padding-left: 0;">
-                        {% for horario in horarios %}
-                            <li>{{ horario }}</li>
-                        {% endfor %}
-                    </ul>
-                </td>
-            </tr>
             {% endfor %}
         </tbody>
     </table>
-    {% else %} <!--Logica para resutado vazio-->
+    {% elif resultado == None %}
+    {% else %}
     <h4>Nenhum resultado encontrado.</h4>
     {% endif %}
 {% endblock %}
