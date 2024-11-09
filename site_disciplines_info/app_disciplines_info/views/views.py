@@ -25,7 +25,7 @@ def consultar_view(request):
 
         consulta = Disciplina.objects.filter(**filtros)
 
-        if not consulta.exists():
+        if not (codigo or nome or professor or dia or horario):
             consulta = Disciplina.objects.all()
 
         for disciplina in consulta:

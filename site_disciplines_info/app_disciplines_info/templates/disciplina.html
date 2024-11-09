@@ -1,6 +1,102 @@
 {% extends 'base.html' %}
 
 {% block content %}
-  <h1>{{ codigo }} {{ nome }}</h1>
-  <h2>{{ professor }}</h2>
+<div style="display: flex;">
+  <div class="informacoes">
+    <div class="titulo">
+      <h2> {{ nome }} {{ codigo }} </h2>
+      <h2> {{ professor }} </h2>
+    </div>
+    <div class="ementa">
+      <h4>Ementa</h4>
+      <p> (1) Unidade central de processamento. Registradores. Ciclo de execução. Instruções e modos de endereçamento. Máquinas RISC e CISC. (2) Interrupções e tratadores. (3) Entrada e saída. (4) Memória. Hierarquia de memória. Caches e localidade. Tratamento de escritas. (5) Paralelismo. Operações Vetoriais. Arquiteturas heterogêneas. Máquinas multi-núcleo e caches. Políticas de consistência.</p>
+    </div>
+    <div class="horarios">
+      <h4>Outros horários</h4>
+      <p>SEQ-QUA / 07-09 </p>
+    </div>
+  </div>
+
+  <div class="avalicao">
+    <div class="titulo">
+      <h2> Resumo das avalições </h2>
+    </div>
+    <div class="notas" style="display: flex;">
+      <div class="media" style="align-items: center;">
+        <h1> 4.2 </h1>
+      </div>
+      <div class="grafico">
+        <p> ⭐⭐⭐⭐⭐ </p>
+        <p> ⭐⭐⭐⭐ </p>
+        <p> ⭐⭐⭐ </p>
+        <p> ⭐⭐ </p>
+        <p> ⭐ </p>
+      </div>
+    </div>
+    <div class="comentarios">
+      <div class="usuario row">
+        <img src="https://w7.pngwing.com/pngs/178/595/png-transparent-user-profile-computer-icons-login-user-avatars-thumbnail.png">
+        <p style="font-weight:500">Aluno</p>
+      </div>
+      <div class="texto">
+        A tecnologia tem sido um fator essencial na transformação das nossas vidas. Desde a comunicação até a educação, ela está presente em todos os pessoas…
+      </div>
+      <div class="usuario row">
+        <img src="https://w7.pngwing.com/pngs/178/595/png-transparent-user-profile-computer-icons-login-user-avatars-thumbnail.png">
+        <p style="font-weight:500">Aluno</p>
+      </div>
+      <div class="texto">
+        A tecnologia tem sido um fator essencial na transformação das nossas vidas. Desde a comunicação até a educação, ela está presente em todos os pessoas…
+      </div>
+      <div class="usuario row">
+        <img src="https://w7.pngwing.com/pngs/178/595/png-transparent-user-profile-computer-icons-login-user-avatars-thumbnail.png">
+        <p style="font-weight:500">Aluno</p>
+      </div>
+      <div class="texto">
+        A tecnologia tem sido um fator essencial na transformação das nossas vidas. Desde a comunicação até a educação, ela está presente em todos os pessoas…
+    </div>
+    </div>
+    <div class="compartilhar">
+      <div class="titulo" style="font-weight: 500;">
+        Avalie sua experiência
+      </div>
+      <button type="button" class="btn btn-secondary">Compartilhar</button>
+    </div>
+  </div>
+</div>
+
+<style>
+  img{ 
+    width: 24px;
+    margin: 0px 8px 0px 16px;
+  }
+  p{
+    margin:0px;
+  }
+  .informacoes{
+    min-width: 50%;
+    padding: 20px;
+  }
+  .avalicao{
+    min-width: 50%;
+    background: #C3E0DF;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 16px;
+  }
+  .comentarios{
+    justify-content: center;
+  }
+  .informacoes .titulo{
+    min-height: 40%;
+  }
+  .informacoes .ementa{
+    min-height: 30%;
+    margin-bottom: 20px;
+  }
+  .informacoes .horarios{
+    min-height: 30%;
+    margin-bottom: 20px;
+  }
+</style>
 {% endblock %}
