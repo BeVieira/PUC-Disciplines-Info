@@ -9,11 +9,13 @@
     </div>
     <div class="ementa">
       <h4>Ementa</h4>
-      <p> (1) Unidade central de processamento. Registradores. Ciclo de execução. Instruções e modos de endereçamento. Máquinas RISC e CISC. (2) Interrupções e tratadores. (3) Entrada e saída. (4) Memória. Hierarquia de memória. Caches e localidade. Tratamento de escritas. (5) Paralelismo. Operações Vetoriais. Arquiteturas heterogêneas. Máquinas multi-núcleo e caches. Políticas de consistência.</p>
+      <p> {{ ementa }} </p>
     </div>
     <div class="horarios">
-      <h4>Outros horários</h4>
-      <p>SEQ-QUA / 07-09 </p>
+      <h4>Horários disponíveis</h4>
+      {% for horario in horarios %}
+      <p>{{ horario }}</p>
+      {% endfor %}
     </div>
   </div>
 
@@ -22,7 +24,7 @@
       <h2> Resumo das avalições </h2>
     </div>
     <div class="notas" style="display: flex;">
-      <div class="media" style="align-items: center;">
+      <div class="media" style="align-items: center; padding: 8px;">
         <h1> 4.2 </h1>
       </div>
       <div class="grafico">

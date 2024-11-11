@@ -11,6 +11,7 @@ class Disciplina(models.Model):
     nome = models.CharField(max_length=100)
     dia = models.CharField(max_length=50)
     horario = models.CharField(max_length=50)
+    ementa = models.CharField(max_length=1000, blank=True, null=True)
     professor = models.ForeignKey(Professor, on_delete=models.CASCADE, related_name='disciplinas')
 
 class Review(models.Model):

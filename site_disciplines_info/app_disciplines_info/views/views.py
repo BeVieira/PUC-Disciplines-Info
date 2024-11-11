@@ -41,8 +41,19 @@ def consultar_view(request):
 def disciplina_view(request, codigo, professor):
     disciplina = Disciplina.objects.filter(codigo=codigo)
     disciplina = disciplina.filter(professor__nome=professor)
+    horarios = disciplina.values_list('horario', flat=True) 
+    dias = disciplina.values_list('dia', flat=True)
+    listaHorarios =[]
 
-    return render(request, 'disciplina.html', 
-                  {'codigo': disciplina[0].codigo,
-                   'nome': disciplina[0].nome,
-                   'professor': disciplina[0].professor.nome})
+    for i in range(len(horarios)):
+        listaHorarios.append(f'{dias[i]} / {horarios[i]}')
+
+    objetoTela = {
+        'codigo': disciplina[0].codigo,
+        'nome': disciplina[0].nome,
+        'professor': disciplina[0].professor.nome,
+        'horarios' : listaHorarios,
+        'ementa': disciplina[0].ementa
+    }
+
+    return render(request, 'disciplina.html', objetoTela)
