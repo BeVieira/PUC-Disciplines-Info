@@ -1,0 +1,916 @@
+Ementa da disciplina ADM1019:
+Ementa
+Contabilidade de custos: conceitos básicos, custos gerais de produção. Enfoque em informática: relação/custo/volume/lucro. Decisões empresariais. Matemática financeira: juros simples e compostos: fórmula de montante e capital; valores no tempo; método do valor atual, do custo anual e da taxa de retorno. Análise de demonstrativos econômico-financeiros.
+Bibliografia
+MARION, José Carlos. Contabilidade Empresarial; Rio de Janeiro: Editora Atlas, 2003.
+Bibliografia Complementar
+Nenhuma biliografia complementar encontrada para ADM1019
+Pré-requisitos
+Nenhum pre-requisito encontrado para ADM1019
+Co-requisitos
+Nenhum co-requisito encontrado para ADM1019
+Última atualização da ementa: 11/02/2014
+
+Ementa da disciplina INF1009:
+Ementa
+Relação da lógica com as questões centrais da filosofia, com ênfase nos aspectos epistemológicos (justificação, dedução, definição), aspectos metafísicos (verdade, essência, individuação) e aspectos linguísticos (termo, proposição, juízo, forma lógica). Noções do desenvolvimento histórico da lógica de Aristóteles a Frege.
+Bibliografia
+MORTARI, CEZAR A. INTRODUÇÃO À LÓGICA; SÃO PAULO: UNESP, 2001.
+SILVA, F.S.C DA; FINGER, M.; MELO, A.C.V DE. LÓGICA PARA COMPUTAÇÃO; SÃO PAULO: THOMSON, 2006.
+SOUZA, JOÃO NUNES DE. LÓGICA PARA CIÊNCIA DA COMPUTAÇÃO: FUNDAMENTOS DE LINGUAGEM, SEMÂNTICA E SISTEMAS DE DEDUÇÃO; RIO DE JANEIRO: CAMPUS, 2002.
+Bibliografia Complementar
+Nenhuma biliografia complementar encontrada para INF1009
+Pré-requisitos
+Nenhum pre-requisito encontrado para INF1009
+Co-requisitos
+Nenhum co-requisito encontrado para INF1009
+Última atualização da ementa: 03/02/2014
+
+Ementa da disciplina INF1010:
+Ementa
+Árvores: formas de representação, recursão em árvores, árvores binárias, árvores binárias de busca, filas de prioridades, árvores balanceadas. Heaps e estruturas para partições dinâmicas. Conjuntos: operações, representação por listas e por vetores característicos, hashing. Grafos e algoritmos básicos.
+Bibliografia
+CELES, W.; CERQUEIRA, RENATO FONTOURA DE GUSMÃO; JOSÉ LUCAS MOURÃO. INTRODUÇÃO À ESTRUTURAS DE DADOS: COM TÉCNICAS DE PROGRAMAÇÃO EM C; RIO DE JANEIRO: CAMPUS, 2004.
+SZWARCFITER, JAYME LUIZ. ESTRUTURAS DE DADOS E SEUS ALGORITMOS; RIO DE JANEIRO: LTC, 2010.
+ZIVIANI, NIVIO. PROJETO DE ALGORITMOS COM IMPLEMENTAÇÕES EM PASCAL E C; SÃO PAULO: CENGAGE LEARNING, 2010.
+Bibliografia Complementar
+Nenhuma biliografia complementar encontrada para INF1010
+Pré-requisitos
+INF1006 e PORTUGUÊS (nivel 3)
+ou
+INF1007 e PORTUGUÊS (nivel 3)
+ou
+INF1037 e PORTUGUÊS (nivel 3)
+ou
+INF1318 e PORTUGUÊS (nivel 3)
+ou
+INF1620 e PORTUGUÊS (nivel 3)
+Co-requisitos
+Nenhum co-requisito encontrado para INF1010
+Última atualização da ementa: 03/02/2014
+
+Ementa da disciplina INF1011:
+Ementa
+Semântica operacional. Semântica axiomática. Semântica denotacional. Gramática de Atributos. Verificação de propriedades.
+Bibliografia
+FELLEISEN, M.; FINDLER, R.B.; FLATT, M. SEMANTICS ENGINEERING WITH PLT REDEX; CAMBRIDGE: THE MIT PRESS, 2009.
+Bibliografia Complementar
+Nenhuma biliografia complementar encontrada para INF1011
+Pré-requisitos
+INF1010 e INF1022
+ou
+INF1010 e INF1626
+ou
+INF1620 e INF1626
+Co-requisitos
+Nenhum co-requisito encontrado para INF1011
+Última atualização da ementa: 06/02/2014
+
+Ementa da disciplina INF1012:
+Ementa
+Modelo de entidade-relacionamento: conceitos básicos de entidade, relacionamento e atributo; generalização/especialização; entidades associativas. Modelo conceitual de dados utilizando a linguagem UML. Estudos de casos
+Bibliografia
+HEUSER, C. A. PROJETO DE BANCO DE DADOS; PORTO ALEGRE: BOOKMAN, 2008.
+COUGO, PAULO SERGIO. MODELAGEM CONCEITUAL E PROJETO DE BANCO DE DADOS; RIO DE JANEIRO: CAMPUS, 1997.
+LARMAN , CRAIG. UTILIZANDO UML E PADRÕES: UMA INTRODUÇÃO À ANÁLISE E AO PROJETO ORIENTADOS A OBJETOS E AO DESENVOLVIMENTO ITERATIVO; PORTO ALEGRE: BOOKMAN, 2007.
+Bibliografia Complementar
+Nenhuma biliografia complementar encontrada para INF1012
+Pré-requisitos
+Nenhum pre-requisito encontrado para INF1012
+Co-requisitos
+Nenhum co-requisito encontrado para INF1012
+Última atualização da ementa: 03/02/2014
+
+Ementa da disciplina INF1014:
+Ementa
+Conteúdo variável.
+Bibliografia
+Nenhuma biliografia encontrada para INF1014
+Bibliografia Complementar
+Nenhuma biliografia complementar encontrada para INF1014
+Pré-requisitos
+Nenhum pre-requisito encontrado para INF1014
+Co-requisitos
+Nenhum co-requisito encontrado para INF1014
+Última atualização da ementa: 10/02/2014
+
+Ementa da disciplina INF1015:
+Ementa
+Evidências para a tese de Church. Equivalência de modelos de computação: linguagem PL, Máquinas de Turing e Lambda Calculus; técnicas de programação nesses modelos. Máquina universal, problema da parada, problemas indecidíveis; conjuntos recursivamente enumeráveis; conjuntos recursivos. Teorema de Rice e Teorema de Rogers. Complexidade computacional: reducibilidade, classes naturais de problemas.
+Bibliografia
+CARNIELLI , WALTER; EPSTEIN, RICHARD L. COMPUTABILIDADE, FUNÇÕES COMPUTÁVEIS, LÓGICA E OS FUNDAMENTOS DA MATEMÁTICA; SÃO PAULO: UNESP, 2009.
+DIVERIO, TIARAJÚ ASMUZ; MENEZES, PAULO BLAUTH. TEORIA DA COMPUTAÇÃO: MÁQUINAS UNIVERSAIS E COMPUTABILIDADE; PORTO ALEGRE: SAGRA LUZZATTO, 2000.
+LEWIS, H.,; PAPADIMITRIOU, C. ELEMENTOS DE TEORIA DA COMPUTAÇÃO; PORTO ALEGRE: BOOKMAN, 2000.
+Bibliografia Complementar
+Nenhuma biliografia complementar encontrada para INF1015
+Pré-requisitos
+INF1626 e INF1721
+Co-requisitos
+Nenhum co-requisito encontrado para INF1015
+Última atualização da ementa: 06/02/2014
+
+Ementa da disciplina INF1018:
+Ementa
+Arquitetura básica de um computador; CPU, memória, periféricos. Armazenamento e representação de tipos primitivos; base binária, complemento a dois, ponto flutuante, código ASCII. Conjunto de instruções típico de uma CPU; modos de endereçamento, interrupções. Linguagem de montagem. Serviços e chamadas ao Sistema Operacional; Sistema de Arquivos. Modelo de Execução de Uma Linguagem de Alto Nível; implementação de instruções e dados. Organização de memória em um programa; área estática, área de alocação dinâmica, registros de ativação. Ligação e relocação de programas objeto.
+Bibliografia
+MILLER, KAREN. AN ASSEMBLY LANGUAGE INTRODUCTION TO COMPUTER ARCHITECTURE: USING THE INTEL PENTIUM; NEW YORK: OXFORD UNIV. PRESS, 1999.
+HENNESSY, JOHN L; PATTERSON, DAVID A; LARUS, JAMES R. ORGANIZAÇÃO E PROJETOS DE COMPUTADORES: A INTERFACE HARDWARE /SOFTWARE; RIO DE JANEIRO: LTC, 2000.
+BRYANT, RANDAL; O''HALLARON, DAVID RICHARD. COMPUTER SYSTEMS: A PROGRAMMER''S PERSPECTIVE; UPPER SADDLE RIVER: PRENTICE HALL, 2003.
+Bibliografia Complementar
+Nenhuma biliografia complementar encontrada para INF1018
+Pré-requisitos
+INF1006
+ou
+INF1007
+ou
+INF1037
+Co-requisitos
+Nenhum co-requisito encontrado para INF1018
+Última atualização da ementa: 23/10/2014
+
+Ementa da disciplina INF1022:
+Ementa
+Alfabetos e Linguagens. Autômatos finitos e expressões regulares; extensões de expressões regulares; ferramentas baseadas em casamento de padrões de texto. Gramáticas livres de contexto e máquinas de pilha; gramáticas LL(k), LR(k), SLR e LALR; ferramentas para construção de analisadores sintáticos.
+Bibliografia
+J. Hopcroft; J. Ullman; R. Motwani. Introdução à Teoria de Autômatos, Linguagens e Computação; RJ: Editora Campus, 2003.
+J. Friedl. Mastering Regular Expressions; Sebastopol, CA: O'Reilly, 2006.
+S. Johnson. Yacc: Yet Another Compiler-Compiler. AT&T Bell Laboratories; New Jersey: AT&T Bell Laboratories, 2014.
+Bibliografia Complementar
+T. Mason. Lex & Yacc; Sebastopol, CA: O'Reilly, 1992.
+G. Révész. Introduction to Formal Languages; RJ: Dover, 2012.
+A. Aho; M. Lam; R. Sethi. Compiladores: Princípios, Técnicas e Ferramentas; RJ: Longman, 2007.
+W. Celes; R. Cerqueira; J.L. Rangel. Introdução a Estruturas de Dados com Técnicas de Programação em C; RJ: Elsevier, 2016.
+F.C. Silva; M. Finger; A.C.V. de Melo. Lógica para Computação; São Paulo: Thomson Learning, 2006.
+Pré-requisitos
+INF1007 e INF1009
+ou
+INF1009 e INF1037
+Co-requisitos
+Nenhum co-requisito encontrado para INF1022
+Última atualização da ementa: 05/10/2017
+
+Ementa da disciplina INF1027:
+Ementa
+Qualidade do produto de software. Gerência e medição da qualidade de pro-dutos de software. Controle da qualidade estático: revisão; inspeção; medi-ção estática; análise estática. Princípios e técnicas de teste de software: teste de unidade; teste de integração; teste de regressão; teste alfa, beta, de aceita-ção e de aprovação. Técnicas formais de apoio a testes. Desenvolvimento dirigido por testes. Automatizaçãodos testes. Automatizaçãoda geração de testes. Ferramentas de teste. Planejamento do teste. Registro e acompanha-mento de problemas.
+Bibliografia
+WAGNER, S. Software Product Quality Control; Berlin: Heidelberg: Springer, 2013.
+DELAMARO. M.E.; MALDONADO, J. C.; JINO, M. INTRODUÇÃO AO TESTE DE SOFTWARE 2ª Edição; RIO DE JANEIRO: Elsevier, 2016.
+VINCENZI, A.; DELAMARO, M.E.; DIAS-NETO, A.C.; FABBRI, S.S.P. Automatização de Teste de Software com Ferramentas de Software Livre; Rio de Janeiro: Elsevier, 2018.
+Bibliografia Complementar
+Fenton, N.E.; Bieman, J.  Software Metrics: A Rigorous and Practical Approach 3rd edition; New York, NY: CRC, 2014.
+MYERS, G.J.; BADGETT, T.; SANDLER, C. The Art of Software Testing, 3rd Edition;; Hoboken, N.J: John Wiley & Sons, 2012.
+TIAN, J. Software Quality Engineering: Testing, Quality Assurance, and Quantifiable Improvement; Hoboken, N.J: CRC, 2005.
+BECK, K. Test-Driven Development By Example; Boston, MA: Addison Wesley, 2002.
+STAA, A.V. Programação Modular: Desenvolvendo Programas Complexos de Forma Organizada e Segura; Rio de Janeiro: Campus, 2000.
+Pré-requisitos
+INF1040
+ou
+INF1301
+Co-requisitos
+Nenhum co-requisito encontrado para INF1027
+Última atualização da ementa: 12/11/2020
+
+Ementa da disciplina INF1028:
+Ementa
+Trabalho em grupo, supervisionado, abrangendo as fases de planejamento, análise, design, implementação e testes do ciclo de vida de desenvolvimento de sistemas.
+Bibliografia
+LARMAN, C. UTILIZANDO UML E PADRÕES: UMA INTRODUÇÃO À ANÁLISE E PROJETO ORIENTADOS A OBJETOS E AO DESENVOLVIMENTO ITERATIVO; PORTO ALEGRE: BOOKMAN, 2007.
+STEVE MCCONNEL. CODE COMPLETE: A PRACTICAL HANDBOOK OF SOFTWARE CONSTRUCTION; RJ: REDMOND: MICROSOFT PRESS, 2004.
+DENNIS, A.; WIXOM, B. H.; ROTH, R. M. ANÁLISE E PROJETO DE SISTEMAS; RJ: LTC, 2014.
+Bibliografia Complementar
+FREEMAN, ERIC; FREEMAN , ELISABETH. USE A CABEÇA - PADRÕES DE PROJETOS; RIO DE JANEIRO: ATLAS, 2009.
+HEUSER, CARLOS ALBERTO. PROJETO DE BANCO DE DADOS; PORTO ALEGRE: BOOKMAN, 2009.
+PRESSMAN, ROGER S. ENGENHARIA DE SOFTWARE; RIO DE JANEIRO: MACGRAW-HILL, 2006.
+ELMASRI, R.; NAVATHE, S. B. SISTEMAS DE BANCO DE DADOS: FUNDAMENTOS E APLICAÇÕES; SÃO PAULO: PEARSON EDUCATION, 2011.
+DELAMARO. M.E.; MALDONADO, J. C.; JINO, M. INTRODUÇÃO AO TESTE DE SOFTWARE; RIO DE JANEIRO: CAMPUS, 2007.
+Pré-requisitos
+INF1027 e INF1383 e INF1636
+ou
+INF1383 e INF1413 e INF1636
+Co-requisitos
+Nenhum co-requisito encontrado para INF1028
+Última atualização da ementa: 29/09/2017
+
+Ementa da disciplina INF1029:
+Ementa
+(1) Unidade central de processamento. Registradores. Ciclo de execução. Instruções e modos de endereçamento. Máquinas RISC e CISC. (2) Interrupções e tratadores. (3) Entrada e saída. (4) Memória. Hierarquia de memória. Caches e localidade. Tratamento de escritas. (5) Paralelismo. Operações Vetoriais. Arquiteturas heterogêneas. Máquinas multi-núcleo e caches. Políticas de consistência.
+Bibliografia
+M. Monteiro. Introdução à Organização de Computadores; São Paulo: 5a edição. LTC, 2007.
+W. Stallings. Arquitetura e Organização de Computadores; Yorkshire, Inglaterra: Pearson, 2009.
+R. Bryant; D. OHallaron. Computer Systems: A Programmers Perspective; Yorkshire, Inglaterra: Pearson, 2015.
+Bibliografia Complementar
+M. Burrell. Fundamentals of Computer Architecture; RJ: Palgrave, 2004.
+R. Weber. Fundamentos de Arquitetura de Computadores; RJ: Bookman, 2012.
+W. Celes; R. Cerqueira; J.L. Rangel. Introdução a Estruturas de Dados com Técnicas de Programação em C; RJ: Elsevier, 2016.
+A. Tanenbaum. Organização Estruturada de Computadores; Yorkshire, Inglaterra: Pearson, 2013.
+J. Henessy; D. Patterson. Arquitetura de Computadores: uma Aboradagem Quantitativa; RJ: Campus, 2008.
+Pré-requisitos
+INF1018
+Co-requisitos
+Nenhum co-requisito encontrado para INF1029
+Última atualização da ementa: 05/10/2017
+
+Ementa da disciplina INF1032:
+Ementa
+Introdução à Ciência dos Dados (Data Science). Coleta de dados de diferentes fontes. Preparação dos dados para análise. Exploração (numérica e visual) de dados. Métodos de modelagem e análise. Introdução a algoritmos de estimação de parâmetros e aprendizado de máquina. Apresentação de resultados utilizando dados, tabelas e gráficos.
+Bibliografia
+Zumel; Nina; John Mount. Practical data science with R, 2014.; RJ: Manning, 2014.
+Gareth James; Robert Tibshirani; Trevor Hastie. An Introduction to Statistical Learning; RJ: Springer, 2013.
+NDA. Notas de Aula; NDA: NDA, 2017.
+Bibliografia Complementar
+Kuhn; Max; Kjell Johnson. Applied predictive modeling; New York: Springer, 2013.
+John Hopcroft; Ravindran Kannan. Foundations of Data Science; RJ: Cornell, 2013.
+Tan; Pang-Ning; Michael Steinbach. Introduction to Data Mining; Boston: Pearson, 2005.
+Yaser S. Abu-Mostafa; Malik Magdon-Ismail; Hsuan-Tien Lin. Learning From Data A Short Course; RJ: AML Book, 2012.
+Cairo, Alberto. The Truthful Art: Data, Charts, and Maps for Communication; RJ: New Riders, 2016.
+Pré-requisitos
+INF1007 e MAT1200
+ou
+INF1007 e MAT1250
+ou
+INF1007 e MAT1260
+ou
+INF1007 e MAT1280
+ou
+INF1007 e MAT4200
+ou
+INF1007 e MAT4280
+ou
+INF1026 e MAT1200
+ou
+INF1026 e MAT1250
+ou
+INF1026 e MAT1260
+ou
+INF1026 e MAT1280
+ou
+INF1026 e MAT4200
+ou
+INF1026 e MAT4280
+ou
+INF1037 e MAT1200
+ou
+INF1037 e MAT1250
+ou
+INF1037 e MAT1260
+ou
+INF1037 e MAT1280
+ou
+INF1037 e MAT4200
+ou
+INF1037 e MAT4280
+Co-requisitos
+Nenhum co-requisito encontrado para INF1032
+Última atualização da ementa: 29/09/2017
+
+Ementa da disciplina INF1034:
+Ementa
+Introdução a programação: expressões, comandos, estruturas de controle e estruturas de dados. Desenvolvimento de aplicações iterativas e recursivas. Uso de bibliotecas para a construção de gráficos e de algoritmos para resolver equações, inequações, limites e derivadas. Desenvolvimento de programas que exigem solução de forma gráfica: histogramas, nuvem de palavras e jogos. Leitura e escrita de arquivos de texto.
+Bibliografia
+Allen Downey. Pense em Python; São Paulo: Novatec, 2016.
+STEWART, J.  Cálculo Volume 1 6ª edição; São Paulo: CENGAGE Learning, 2010.
+MORTARI, CEZAR A. Introdução à Lógica; São Paulo: UNESP, 2001.
+Bibliografia Complementar
+David Ascher; Mark Lutz. Aprendendo Python; Porto Alegre: Bookman, 2007.
+Luiz Eduardo Borges. Python para Desenvolvedores; São Paulo: Novatec, 2014.
+Al Sweigart. Automatize tarefas maçantes com Python; São Paulo: Novatec, 2015.
+MENEZES, N. N. C. Introdução à Programação com Python; São Paulo: Novatec, 2014.
+Ben Stephenson. The Python Workbook: A Brief Introduction with Exercises and Solutions; Heidelberg: Springer, 2014.
+Pré-requisitos
+Nenhum pre-requisito encontrado para INF1034
+Co-requisitos
+Nenhum co-requisito encontrado para INF1034
+Última atualização da ementa: 14/06/2022
+
+Ementa da disciplina INF1036:
+Ementa
+Introdução à Probabilidade Algoritmos para geração de números aleatórios Algoritmos para simulação estocástica de variáveis aleatórias discretas e aplicações Algoritmos para simulação estocástica de variáveis aleatórias contínuas e aplicações Algoritmos para simulação de eventos discretos: filas, redes, etc.
+Bibliografia
+Sheldon Ross. Simulation; RJ: Academic Press, 2012.
+Jane Horgan. Probability with R: An Introduction with Computer Science Applications; New York: Willey, 2009.
+Douglas C. Montgomery; George C. Runger. Estatística Aplicada e Probabilidade Para Engenheiros; São Paulo: LTC, 2016.
+Bibliografia Complementar
+Donald E. Knuth. Art of Computer Programming, Volume 2: Seminumerical Algorithms; RJ: Addison-Wesley Professional, 1997.
+W. Celes; R. Cerqueira; J.L. Rangel. Introdução à estruturas de dados com técnicas de programação em C; RJ: Elsevier, 2016.
+A. Downey. Pense em Python; RJ: Novatec, 2016.
+I. Malta; S. Pesco; H. Lopes. Cálculo a uma Variável, Volume I; RJ: Editora PUC-Rio, 2002.
+I. Malta; S. Pesco; H. Lopes. Cálculo a uma Variável, Volume II; RJ: Edição Loyola, Editora PUC-Rio, 2002.
+Pré-requisitos
+CTC4002 e MAT4161
+ou
+INF1005 e MAT1158
+ou
+INF1005 e MAT1162
+ou
+INF1025 e MAT1158
+ou
+INF1025 e MAT1161
+ou
+INF1025 e MAT1162
+ou
+INF1025 e MAT4161
+Co-requisitos
+Nenhum co-requisito encontrado para INF1036
+Última atualização da ementa: 05/10/2017
+
+Ementa da disciplina INF1038:
+Ementa
+Introdução ao aprendizado de máquina. Métodos para tratamento de dados: pré-processamento de dados e seleção de atributos. Métodos de agrupamento. Algoritmos de Classificação. Algoritmos de Regressão.
+Bibliografia
+Pang-Ning Tan; Michael Steinbach; Vipin Kumar. Introduction to Data Mining; xxx: Addison-Wesley, 2005.
+Gareth James; Daniela Witten; Trevor Hastie; Robert Tibshirani. An Introduction to Statistical Learning: with Applications in R; xxx: Springer, 2013.
+Marsland, Stephen. Machine learning: an algorithmic perspective; xxx: Chapman and Hall/CRC Press, 2014.
+Bibliografia Complementar
+Bishop, Christopher M. Pattern recognition and machine learning; xxx: Springer, 2006.
+Ian Goodfellow; Yoshua Bengio; Aaron Courville. Deep Learning; xxx: The MIT Press, 2016.
+Raschka, Sebastian. Python machine learning; xxx: Packt Publishing Ltd, 2015.
+Robert, Christian. Machine learning, a probabilistic perspective (62-63); xxx: xxx, 2014.
+Professor da disciplina. Notas de Aulas; xxx: xxx, 2021.
+Pré-requisitos
+ENG1029 e INF1007 e MAT1200
+ou
+ENG1029 e INF1007 e MAT1250
+ou
+ENG1029 e INF1007 e MAT1260
+ou
+ENG1029 e INF1007 e MAT1280
+ou
+ENG1029 e INF1007 e MAT4200
+ou
+ENG1029 e INF1007 e MAT4280
+ou
+ENG1029 e INF1037 e MAT1200
+ou
+ENG1029 e INF1037 e MAT1250
+ou
+ENG1029 e INF1037 e MAT1260
+ou
+ENG1029 e INF1037 e MAT1280
+ou
+ENG1029 e INF1037 e MAT4200
+ou
+ENG1029 e INF1037 e MAT4280
+ou
+ENG1410 e INF1007 e MAT1200
+ou
+ENG1410 e INF1007 e MAT1250
+ou
+ENG1410 e INF1007 e MAT1260
+ou
+ENG1410 e INF1007 e MAT1280
+ou
+ENG1410 e INF1007 e MAT4200
+ou
+ENG1410 e INF1007 e MAT4280
+ou
+ENG1410 e INF1037 e MAT1250
+ou
+ENG1410 e INF1037 e MAT1260
+ou
+ENG1410 e INF1037 e MAT1280
+ou
+ENG1410 e INF1037 e MAT4200
+ou
+ENG1410 e INF1037 e MAT4280
+ou
+ENG4010 e INF1037 e MAT4200
+ou
+ENG4501 e INF1007 e MAT1200
+ou
+ENG4501 e INF1007 e MAT1250
+ou
+ENG4501 e INF1007 e MAT1260
+ou
+ENG4501 e INF1007 e MAT1280
+ou
+ENG4501 e INF1007 e MAT4200
+ou
+ENG4501 e INF1007 e MAT4280
+ou
+ENG4501 e INF1037 e MAT1200
+ou
+ENG4501 e INF1037 e MAT1250
+ou
+ENG4501 e INF1037 e MAT1260
+ou
+ENG4501 e INF1037 e MAT1280
+ou
+ENG4501 e INF1037 e MAT4200
+ou
+ENG4501 e INF1037 e MAT4280
+ou
+INF1007 e INF1036 e MAT1200
+ou
+INF1007 e INF1036 e MAT1250
+ou
+INF1007 e INF1036 e MAT1260
+ou
+INF1007 e INF1036 e MAT1280
+ou
+INF1007 e INF1036 e MAT4200
+ou
+INF1007 e INF1036 e MAT4280
+ou
+INF1036 e INF1037 e MAT1200
+ou
+INF1036 e INF1037 e MAT1250
+ou
+INF1036 e INF1037 e MAT1260
+ou
+INF1036 e INF1037 e MAT1280
+ou
+INF1036 e INF1037 e MAT4200
+ou
+INF1036 e INF1037 e MAT4280
+Co-requisitos
+Nenhum co-requisito encontrado para INF1038
+Última atualização da ementa: 23/04/2021
+
+Ementa da disciplina INF1039:
+Ementa
+Uso de ferramenta para aplicações interativas; Elementos de interação, geometria, movimento, colisão, sensores e multimídia; Projetos exploratórios; Desenvolvimento de aplicação interativa; Estratégias de IHC (Interface Humano-Computador); Design conceitual; Requisitos; Fases de ciclo de vida do desenvolvimento; Questões de integração; Avaliação.
+Bibliografia
+Celes, W.; Cerqueira, R; Rangel, J.L.  Introdução a Estruturas de Dados - com técnicas de programação em C 2ª edição; Rio de Janeiro: GEN LTC, 2016.
+Barbosa, S.D.J et al. Interação Humano-Computador e Experiência do Usuário; Rio de Janeiro: Leanpub, 2021.
+Anton, H; Rorres, C. Álgebra Linear com Aplicações; Porto Alegre: Bookman, 2004.
+Bibliografia Complementar
+Cabral, M; Goldfeld, P.  Curso de Álgebra Linear - Fundamentos e Aplicações Disponível em: https://www.labma.ufrj.br/mcabral/livros/livro-alglin/alglin-material/CursoAlgLin-livro.pdf; Rio de Janeiro: Curso Alglin, 2008.
+MOORE , Alan D. Python GUI Programming with Tkinter - Second Edition: Design and Build Functional and User-Friendly GUI Applications; Birmingham: Packt Publishing, 2021.
+PREECE, J.; ROGERS, I.; SHARP, H. Design de Interação: Além da Interação Humano-Computador; Porto: Bookman, 2013.
+MCCONNELL, Steve. Code Complete: A Practical Handbook of Software Construction - Second Edition; London: Pearson, 2004.
+B. Kernighan; D. Ritchie. C - A linguagem de programação padrão ANSI; Rio de Janeiro: Campus, 1989.
+Pré-requisitos
+CTC4002
+ou
+INF1025
+Co-requisitos
+INF1007 e INF1403
+ou
+INF1037 e INF1403
+Última atualização da ementa: 14/06/2022
+
+Ementa da disciplina INF1040:
+Ementa
+Módulos: interfaces, acoplamento e coesão. Especificação: independência entre especificação e implementação. Construção e uso de bibliotecas: compilação independente e em separado. Reutilização. Tipos abstratos de dados. Design baseado em contrato. Programação defensiva. Refatoração. Testes unitários: ferramentas de testes, princípios de design e testes unitários. Programação com múltiplas linguagens.
+Bibliografia
+Westra, Erick. Modular Programming with Python; Birmingham: Packt Publishing, 2016.
+Downey, Allen. Pense em Python; São Paulo: Novatec, 2016.
+Celes Filho, Waldemar; Cerqueira, Renato Fontoura de Gusmão; Rangel Netto, José Lucas Mourão. Introdução a Estruturas de Dados - Com Técnicas de Programação em C; RIo de Janeiro: LTC, 2016.
+Bibliografia Complementar
+Staa, Arndt Von. Programação Modular: Desenvolvendo Programas Complexos de Forma Organizada e Segura; Rio de Janeiro: Campus, 2000.
+Moore, Alan D. Python GUI Programming with Tkinter - Second Edition: Design and Build Functional and User-Friendly GUI Applications; Birmingham: Packt Publishing, 2021.
+Anaya, Mariano. Clean Code in Python: Develop Maintainable and Efficient Code, 2nd Edition; Birmingham: Packt Publishing, 2021.
+Mcconnell, Steve. Code Complete: A Practical Handbook of Software Construction, Second Edition; London: Pearson, 2004.
+Meyer, Bertrand. Object-Oriented Software Construction Second Edition; London: Pearson College, 2000.
+Pré-requisitos
+INF1007
+ou
+INF1037
+Co-requisitos
+INF1010 e INF1018
+Última atualização da ementa: 07/06/2023
+
+Ementa da disciplina INF1041:
+Ementa
+Condução de um projeto completo. Gestão ágil. Ideação e especificação ágil. Arquitetura MVC e Princípios de Projeto. Desenvolvimento Full-Stack. Testes unitários. Revisões de software modernas. DevOps (controle de versões, integração contínua e deployment contínuo). Testes de aceitação.
+Bibliografia
+Valente, M. T.  Engenharia de Software Moderna - 1ª edição Livro Digital; xxxx: xxxx, 2020.
+Sommerville, I. Engineering Software Products: An Introduction to Modern Software Engineering; London: Pearson, 2019.
+Prikladnicki, R.; Willi, R.; Milani, F. Métodos Ágeis para Desenvolvimento de Software; Porto Alegre: Bookman, 2014.
+Bibliografia Complementar
+Staa, Arndt Von. Programação Modular: Desenvolvendo Programas Complexos de Forma Organizada e Segura; Rio de Janeiro: Campus, 2000.
+Anaya, Mariano. Clean Code in Python: Develop Maintainable and Efficient Code, 2nd Edition; Birmingham: Packt Publishing, 2021.
+Heuser, Carlos Alberto. Projeto de Banco de Dados; Porto Alegre: Bookman, 2009.
+Mcconnell, Steve. Code Complete: A Practical Handbook of Software Construction, Second Edition; London: Pearson, 2004.
+Meyer, Bertrand. Object-Oriented Software Construction Second Edition; London: Pearson College, 2000.
+Pré-requisitos
+INF1010 e INF1040 e INF1383
+Co-requisitos
+INF1027 e INF1636
+Última atualização da ementa: 07/06/2023
+
+Ementa da disciplina INF1301:
+Ementa
+Módulos, interfaces acoplamento, coesão, modelagem física. Construção e uso de bibliotecas; compilação independente e em separado. Tipos abstratos de dados; amarração dinâmica; princípios de orientação a objetos. Especificação; independência entre especificação e implementação. Assertivas, argumentação da corretude. Instrumentação, princípios de testes de programas. Qualidade de software.
+Bibliografia
+STAA, ARNDT VON. PROGRAMAÇÃO MODULAR: DESENVOLVENDO PROGRAMAS COMPLEXOS DE FORMA ORGANIZADA E SEGURA; RIO DE JANEIRO: CAMPUS, 2000.
+SCHILDT, HERBERT. C COMPLETO E TOTAL; SÃO PAULO: MAKRON, 1991.
+KERNIGHAN, BRIAN W.; RITCHIE, DENNIS M. C, A LINGUAGEM DE PROGRAMAÇÃO PADRÃO ANSI; RIO DE JANEIRO: CAMPUS, 1989.
+Bibliografia Complementar
+Nenhuma biliografia complementar encontrada para INF1301
+Pré-requisitos
+INF1006
+ou
+INF1007
+ou
+INF1037
+ou
+INF1089
+ou
+INF1318
+ou
+INF1389
+ou
+INF1620
+Co-requisitos
+Nenhum co-requisito encontrado para INF1301
+Última atualização da ementa: 06/02/2014
+
+Ementa da disciplina INF1304:
+Ementa
+Processos; comunicação entre processos memória compartilhada e troca de mensagens; concorrência e paralelismo: possibilidade de inconsistências, deadlock, starvation; problemas clássicos de concorrência; transações executadas em uma única máquina; distribuição: sincronização de relógios, segurança, transações distribuídas; replicação.
+Bibliografia
+TANENBAUM, A. S.  Sistemas Distribuídos Princípios e Paradigmas; São Paulo: Prentice-Hall, 2007.
+TANENBAUM, A. S. Sistemas Operacionais Modernos; São Paulo: Prentice Hall, 2003.
+Bibliografia Complementar
+Nenhuma biliografia complementar encontrada para INF1304
+Pré-requisitos
+INF1316
+Co-requisitos
+Nenhum co-requisito encontrado para INF1304
+Última atualização da ementa: 24/04/2008
+
+Ementa da disciplina INF1316:
+Ementa
+Introdução: funções e estrutura de um sistema operacional. Processos: conceitos básicos; comunicação e sincronização; escalonamento. Gerencia de memória: partições fixas e variáveis; realocação; memória virtual; swapping; sistemas de arquivos.
+Bibliografia
+MACHADO, F. B.; MAIA, L. P. Arquitetura de Sistemas Operacionais; Rio de Janeiro: LTC, 2007.
+SILBERSCHATZ, A.; GALVIN, P. B.; GAGNE, G. Sistemas Operacionais com JAVA; Rio de Janeiro: Campus, 2005.
+Bibliografia Complementar
+Nenhuma biliografia complementar encontrada para INF1316
+Pré-requisitos
+INF1008
+ou
+INF1018
+ou
+INF1315
+Co-requisitos
+Nenhum co-requisito encontrado para INF1316
+Última atualização da ementa: 24/04/2008
+
+Ementa da disciplina INF1350:
+Ementa
+Sistemas reativos interagem continuamente e em tempo real com o ambiente sob os quais estão inseridos. Eles representam um campo amplo de aplicações e plataformas: de jogos eletrônicos em desktops, passando por apps em celulares, até a internet das coisas em sistemas embarcados. Neste curso iremos abordar os sistemas reativos sob diversos aspectos de software, tais como modelos de concorrência, linguagens de programação, técnicas de programação, e aplicações em múltiplas plataformas de hardware.
+Bibliografia
+Gérrard Berry.  Real time programming special purpose or general purpose languages; RJ: INRIA, 1989.
+Roberto Ierusalimschy. Programando em LUA; RJ: LTC, 2015.
+-. Notas de aula e documentação dos sistemas utilizados; -: -, 2018.
+Bibliografia Complementar
+W. Celes; R. Cerqueira; J.L. Rangel. Introdução a Estruturas de Dados com Técnicas de Programação em C; RJ: Elsevier, 2016.
+Czaplicki; S. Chong. Asynchronous functional reactive programming for GUIs; RJ: SIGPLAN, 2013.
+R. Bryant; D. OHallaron. Computer Systems: A Programmers Perspective; RJ: Pearson, 2015.
+F. Sant'Anna; N. Rodriguez; R. Ierusalimschy; O. Landsiedel; P. Tsigas.  Safe system-level concurrency on resource-constrained nodes In Proceedings of the 11th ACM Conference on Embedded Networked Sensor Systems; RJ: SenSys '13, 2013.
+A. Branco; F. Santanna; R. Ierusalimschy, N. Rodriguez, S. Rossetto.  Terra: Flexibility and Safety in Wireless Sensor Networks ACM Tranactions on Sensor Netorks; RJ: -, 2015.
+Pré-requisitos
+INF1010
+ou
+INF1018
+Co-requisitos
+Nenhum co-requisito encontrado para INF1350
+Última atualização da ementa: 21/11/2018
+
+Ementa da disciplina INF1377:
+Ementa
+Elicitação de requisitos; identificação das fontes de informação; técnicas de elicitação; modelagem; técnicas de modelagem; análise de requisitos; validação e verificação; gerência de requisitos; certificação e padrões internacionais; ferramentas.
+Bibliografia
+LEITE, J. C. S. P. ENGENHARIA DE REQUISITOS; RIO DE JANEIRO: WWW.LIVRODEENGENHARIADEREQUISITOS.BLOGSPOT.COM, 2007.
+LEITE, JULIO CESAR SAMPAIO DO PRADO; DOORN, JORGE HORACIO. PERSPECTIVES ON SOFTWARE REQUIREMENTS; BOSTON: KLUWER ACADEMIC PUBLISHERS, 2004.
+JACKSON, M. A. SOFTWARE REQUIREMENTS AND SPECIFICATIONS : A LEXICON OF PRACTICE, PRINCIPLES AND PREJUDICES; WOKINGHAM: ADDISON-WESLEY, 1995.
+Bibliografia Complementar
+Nenhuma biliografia complementar encontrada para INF1377
+Pré-requisitos
+70 créditos
+Co-requisitos
+Nenhum co-requisito encontrado para INF1377
+Última atualização da ementa: 06/05/2011
+
+Ementa da disciplina INF1383:
+Ementa
+Introdução aos sistemas de gerência de bancos de dados. Projeto de banco de dados: conceitual, lógico e físico. Modelo conceitual de entidades e relacionamentos. Modelo de dados relacional. Dependências funcionais e normalização. Linguagens de definição e de manipulação de dados. Álgebra relacional e sql. Restrições de integridade e visões. Organização física de bancos de dados: técnicas de armazenamento e indexação.
+Bibliografia
+ELMASRI, R.; NAVATHE, S. B.  SISTEMAS DE BANCO DE DADOS: FUNDAMENTOS E APLICAÇÕES; SÃO PAULO: PEARSON EDUCATION, 2011.
+SILBERSCHATZ ,A.; KORTH , H.F; SUDARSHAN, S. SISTEMAS DE BANCOS DE DADOS.; RIO DE JANEIRO: CAMPUS, 2006.
+HEUSER, CARLOS ALBERTO. PROJETO DE BANCO DE DADOS; RIO DE JANEIRO: BOOKMAN, 2009.
+Bibliografia Complementar
+Nenhuma biliografia complementar encontrada para INF1383
+Pré-requisitos
+INF1006 e INF1012
+ou
+INF1007 e INF1012
+ou
+INF1012 e INF1037
+Co-requisitos
+Nenhum co-requisito encontrado para INF1383
+Última atualização da ementa: 06/02/2014
+
+Ementa da disciplina INF1403:
+Ementa
+Comunicação usuário-sistema. Comunicação projetista usuário. Engenharia cognitiva e semiótica de sistemas interativos. Estilos e paradigmas de interação: interfaces gráficas; manipulação direta, ícones e linguagens visuais. Modelagem de interfaces: cenarização; modelos de tarefas; modelos de usuário; modelos de interação. Concretização do projeto de interface: storyboarding e prototipação de interfaces; ferramentas de apoio a construção de interfaces. Avaliação de sistemas interativos: inspeção e testes com usuários; aspectos éticos na relação com os usuários. Acessibilidade: interfaces para dispositivos móveis; usabilidade universal.
+Bibliografia
+BARBOSA, S.D.J.; SILVA, B.S. INTERAÇÃO HUMANO-COMPUTADOR; RIO DE JANEIRO: CAMPUS / ELSEVIER, 2010.
+PRATES, R.O.; BARBOSA, S.D.J. INTRODUÇÃO À TEORIA E PRÁTICA DA INTERAÇÃO HUMANO-COMPUTADOR FUNBDAMENTADA NA ENGENHARIA SEMIÓTICA. IN: KOWALTOVSKY, T.; BREITMAN, K K. ORGS. ATUALIZAÇÕES EM INFORMÁTICA 2007 (XXVII CONGRESSO DA SBC); RIO DE JANEIRO: PUC, 2007.
+PREECE, J.; ROGERS, I.; SHARP, H. DESIGN DE INTERAÇÃO: ALÉM DA INTERAÇÃO HUMANO-COMPUTADOR; PORTO ALEGRE: BOOKMAN, 2005.
+Bibliografia Complementar
+Nenhuma biliografia complementar encontrada para INF1403
+Pré-requisitos
+Nenhum pre-requisito encontrado para INF1403
+Co-requisitos
+Nenhum co-requisito encontrado para INF1403
+Última atualização da ementa: 17/01/2014
+
+Ementa da disciplina INF1408:
+Ementa
+Apresentação das técnicas de modelagem de processos e de ferramental de apoio. Painel de métodos de gestão, qualidade total e reengenharia de processos. Sistemas de informação como instrumentos de produtividade. Técnicas e instrumentos dos processos produtivos. Estudo de casos.
+Bibliografia
+DAVENPORT, T. H. Reengenharia de Processos; Rio de Janeiro: Campus, 1994.
+Bibliografia Complementar
+Nenhuma biliografia complementar encontrada para INF1408
+Pré-requisitos
+100 créditos
+Co-requisitos
+Nenhum co-requisito encontrado para INF1408
+Última atualização da ementa: 17/01/2014
+
+Ementa da disciplina INF1410:
+Ementa
+Funcionamento das áreas de informática das empresas e sua evolução. Técnicas para o planejamento de projetos: objetivos e abrangência; organização do trabalho; cronograma; recursos e custos. Análise de riscos e medidas gerenciais derivadas. Escolha e transferência de tecnologias de informação. Medidas de esforço para o desenvolvimento: o método dos pontos de função. Métricas: medidas de apoio a tomada de decisão. Conceitos de controle de qualidade.
+Bibliografia
+ROCHA, A. R. C.; MALDONADO, J. C.; WEBER, K. C. (Org.).  Qualidade de Software: Teoria e Prática; São Paulo: Prentice-Hall, 2001.
+PETERS, J. F.; PEDRYCZ, W. Engenharia de Software; Rio de Janeiro: Campus, 2001.
+Bibliografia Complementar
+Nenhuma biliografia complementar encontrada para INF1410
+Pré-requisitos
+100 créditos
+Co-requisitos
+Nenhum co-requisito encontrado para INF1410
+Última atualização da ementa: 17/01/2014
+
+Ementa da disciplina INF1608:
+Ementa
+Apresentação e análise do erro dos métodos mais conhecidos para a solução computacional de problemas matemáticos de amplo espectro de aplicação. Teoria dos erros. Aproximação de funções. Integração numérica de EDOs. Métodos para sistemas de equações lineares. Zeros de funções.
+Bibliografia
+RUGGIERO, MÁRCIA A. GOMES; LOPES, VERA LUCIA DA ROCHA. CALCULO NUMÉRICO : ASPECTOS TEÓRICOS E COMPUTACIONAIS; SÃO PAULO: MCGRAW-HILL, 1988.
+Sauer, Timothy. Numerical Analysis 3ª ed.; xxx: Pearson, 2017.
+Chapra, Steven C.; Canale, Raymond P. Métodos Numéricos para Engenharia; xxx: McGraw-Hill, 2008.
+Bibliografia Complementar
+Celes Filho, Waldemar; Cerqueira, Renato Fontoura de Gusmão; Rangel Netto, José Lucas Mourão. Introdução à Estruturas de Dados com Técnicas de Programação em C; Rio de Janeiro: Campus, 2004.
+Peter, A.; Chaves, T. C. F.  Análise Numérica Um Curso Numérico; Rio de Janeiro: LTC, 1973.
+Atikinson, K. An Introduction to Numeral Analysis; New York: Wiley, 1978.
+Pré-requisitos
+INF1007 e MAT1200
+ou
+INF1007 e MAT1250
+ou
+INF1007 e MAT1260
+ou
+INF1007 e MAT1280
+ou
+INF1007 e MAT4200
+ou
+INF1007 e MAT4280
+ou
+INF1037 e MAT1200
+ou
+INF1037 e MAT1250
+ou
+INF1037 e MAT1260
+ou
+INF1037 e MAT1280
+ou
+INF1037 e MAT4200
+ou
+INF1037 e MAT4280
+Co-requisitos
+Nenhum co-requisito encontrado para INF1608
+Última atualização da ementa: 25/07/2019
+
+Ementa da disciplina INF1629:
+Ementa
+Qualidade de software. Requisitos, especificação, projeto, implementação, teste e verificação de grandes sistemas de software. Estudo e uso de metodologias e ferramentas. Programação em grupo.
+Bibliografia
+SOMMERVILLE, I. ENGENHARIA DE SOFTWARE; SÃO PAULO / PRENTICE HALL: ADDISON-WESLEY, 2003.
+STEVE MCCONNEL. CODE COMPLETE: A PRACTICAL HANDBOOK OF SOFTWARE CONSTRUCTION; REDMOND: MICROSOFT PRESS, 2004.
+PRESSMAN, ROGER S. ENGENHARIA DE SOFTWARE; RIO DE JANEIRO: MACGRAW-HILL, 2006.
+Bibliografia Complementar
+Nenhuma biliografia complementar encontrada para INF1629
+Pré-requisitos
+INF1013 e INF1636
+ou
+INF1301
+ou
+INF1628
+Co-requisitos
+Nenhum co-requisito encontrado para INF1629
+Última atualização da ementa: 26/05/2017
+
+Ementa da disciplina INF1631:
+Ementa
+Construções indutivas. Provas por indução; indução forte, indução estrutural. Princípios de contagem, combinatória. Grafos e árvores.
+Bibliografia
+GERSTING, JUDITH L. FUNDAMENTOS MATEMÁTICOS PARA A CIÊNCIA DA COMPUTAÇÃO; RIO DE JANEIRO: LTC, 2001.
+KNUTH, DONALD ERVIN; KNUTH, DONALD ERVIN; PATASHNIK, OREN. MATEMÁTICA CONCRETA: FUNDAMENTOS PARA A CIÊNCIA DA COMPUTAÇÃO; RIO DE JANEIRO: LIVROS TÉCNICOS E CIENTÍFICOS, 1995.
+SCHEINERMAN, EDWARD R. MATEMÁTICA DISCRETA: UMA INTRODUÇÃO; SÃO PAULO: PIONEIRA THOMSON, 2003.
+Bibliografia Complementar
+Nenhuma biliografia complementar encontrada para INF1631
+Pré-requisitos
+INF1007 e MAT1310
+ou
+INF1007 e MAT1320
+ou
+INF1037 e MAT1310
+ou
+INF1037 e MAT1320
+Co-requisitos
+Nenhum co-requisito encontrado para INF1631
+Última atualização da ementa: 11/10/2013
+
+Ementa da disciplina INF1636:
+Ementa
+Objetos e classes; métodos; polimorfismo e late-binding; abstração de dados; herança simples e múltipla; interfaces; programação orientada a eventos; princípios de linguagens orientadas a objetos; classes e tipos genéricos.
+Bibliografia
+ARNOLD, K.; GOSLING, J. THE JAVA (TM) PROGRAMMING LANGUAGE; BOSTON: ADDISON WESLEY, 2006.
+LISKOV, BARBARA; GUTTAG, JOHN. PROGRAM DEVELOPMENT IN JAVA: ABSTRACTION, SPECIFICATION, AND OBJECT-ORIENTED DESIGN; STOUGHTON, MASSACHUSETTS, EUA: ADDISON WESLEY, 2001.
+BLOCH, JOSHUA. JAVA EFETIVO; RIO DE JANEIRO: ALTA BOOKS, 2008.
+Bibliografia Complementar
+Nenhuma biliografia complementar encontrada para INF1636
+Pré-requisitos
+INF1040
+ou
+INF1301
+ou
+INF1628
+Co-requisitos
+Nenhum co-requisito encontrado para INF1636
+Última atualização da ementa: 06/02/2014
+
+Ementa da disciplina INF1640:
+Ementa
+Introdução a comutação. Topologia de redes. Arquitetura de redes (osi, tcp/ip, etc.). Nível físico. Nível de enlace. Protocolos de acesso. Padrões ieee 802. Nível de rede (protocolo ip). Nível de transporte (protocolo tcp, udp, apis de transporte). Níveis de sessão, apresentação e aplicação: middleware. Sistemas operacionais de redes. Introdução a redes de alta velocidade (comutação de rótulos).
+Bibliografia
+SOARES, L. F. G.; COLCHER, S.; SOUZA, G. L. REDES DE COMPUTADORES: DAS LANS, MANS E WANS ÀS REDES ATM.; RIO DE JANEIRO: CAMPUS, 1995.
+TANEMBAUM, ANDREW S. REDES DE COMPUTADORES; RIO DE JANEIRO: CAMPUS/ELSEVIER, 2003.
+STALLINGS, WILLIAMS. REDES E SISTEMAS DE COMUNICAÇÃO DE DADOS; RIO DE JANEIRO: CAMPUS/ELSEVIER, 2005.
+Bibliografia Complementar
+Nenhuma biliografia complementar encontrada para INF1640
+Pré-requisitos
+ENG1413 e ENG1414
+ou
+ENG4413
+ou
+INF1019
+ou
+INF1316
+Co-requisitos
+Nenhum co-requisito encontrado para INF1640
+Última atualização da ementa: 09/05/2011
+
+Ementa da disciplina INF1721:
+Ementa
+Conceitos Básicos: motivação e solução de problemas, critérios de análise, correção e eficiência. Análise de Algoritmos: tempo de processamento e operações elementares, complexidade de pior caso, algoritmos polinomiais, comparação de algoritmos, algoritmos recursivos, algoritmos pseudo-polinomiais. Algoritmos e estruturas de dados para problemas em grafos: componentes conexas, planaridade, coloração, árvores geradoras de peso mínimo, caminhos mais curtos, caminhos críticos, fluxo máximo, aplicações. Teoria da Complexidade: problemas de decisão, transformações polinomiais, classe P, algoritmos não-determinísticos, classe NP e Co-NP, problemas NP-completos, classe P-space.
+Bibliografia
+CORMEN, T. H. ALGORITMOS: TEORIA E PRÁTICA; RIO DE JANEIRO: CAMPUS, 2002.
+KLEINBERG, JON; TARDOS, ÉVA. ALGORITHM DESIGN; BOSTON: PEARSON EDUCATION, 2005.
+DASGUPTA, SANJOY; PAPADIMITRIOU, CHRISTOS H.; VAZIRANI, UMESH. ALGORITHMS; BOSTON: MCGRAW HILL BOOK COMPANY, 2008.
+Bibliografia Complementar
+Nenhuma biliografia complementar encontrada para INF1721
+Pré-requisitos
+INF1006 e INF1631
+ou
+INF1007 e INF1631
+ou
+INF1010 e INF1308
+ou
+INF1010 e INF1631
+ou
+INF1037 e INF1631
+ou
+INF1308 e INF1389
+ou
+INF1389 e INF1631
+ou
+INF1620 e INF1631
+Co-requisitos
+Nenhum co-requisito encontrado para INF1721
+Última atualização da ementa: 07/02/2014
+
+Ementa da disciplina INF1761:
+Ementa
+Áreas e aplicações da cg. Luz e cor. Imagem digital: captura. Processamento, análise e armazenamento. Geometria e álgebra. Rastreamento de raios: modelos de câmeras, objetos, iluminação. Sombra, reflexão e textura. Transformações geométricas afins e projetivas. Rotações e quaternios. Sistemas gráficos: algoritmos da implementação do opengl. Curvas. Noções de visão computacional 3d.
+Bibliografia
+GOMES, J.; VELHO, L. Fundamentos da Computação Gráfica; Rio de Janeiro: IMPA, 2003.
+Bibliografia Complementar
+Nenhuma biliografia complementar encontrada para INF1761
+Pré-requisitos
+INF1006 e MAT1200
+ou
+INF1006 e MAT1210
+ou
+INF1007 e MAT1200
+ou
+INF1007 e MAT1210
+ou
+INF1007 e MAT1250
+ou
+INF1007 e MAT1260
+ou
+INF1007 e MAT1280
+ou
+INF1007 e MAT4200
+ou
+INF1007 e MAT4280
+ou
+INF1037 e MAT1200
+ou
+INF1037 e MAT1250
+ou
+INF1037 e MAT1260
+ou
+INF1037 e MAT1280
+ou
+INF1037 e MAT4200
+ou
+INF1037 e MAT4280
+ou
+INF1318 e MAT1200
+ou
+INF1318 e MAT1210
+ou
+INF1620 e MAT1200
+Co-requisitos
+Nenhum co-requisito encontrado para INF1761
+Última atualização da ementa: 16/10/2013
+
+Ementa da disciplina INF1771:
+Ementa
+Jogos, busca. Lógica de primeira ordem resolução. Lógica não monotônica. Planos. Aprendizado. Sistemas Especialistas. Linguagem natural.
+Bibliografia
+WINSTON, P. ARTIFICIAL INTELLIGENCE; BOSTON: ADDISON WESLEY, 1992.
+B.FEIJO; E. CLUA; DA SILVA, F.S.C. INTRODUÇÃO À CIÊNCIA DA COMPUTAÇÃO COM JOGOS; RIO DE JANEIRO: CAMPUS/SBC, 2010.
+IVAN BRATKO. PROLOG PROGRAMMING FOR ARTIFICIAL INTELIGENCE; BOSTON: ADDISON WESLEY, 2000.
+Bibliografia Complementar
+Nenhuma biliografia complementar encontrada para INF1771
+Pré-requisitos
+FIL1304 e INF1010
+ou
+FIL1304 e INF1389
+ou
+FIL1304 e INF1620
+ou
+INF1009 e INF1010
+ou
+INF1009 e INF1389
+ou
+INF1009 e INF1620
+ou
+INF1389 e MAT1082
+Co-requisitos
+Nenhum co-requisito encontrado para INF1771
+Última atualização da ementa: 07/02/2014
+
+Ementa da disciplina INF2218:
+Ementa
+O CURSO TEM POR OBJETIVO O ESTUDO DOS FUNDAMENTOS DE TEORIA DA COMPUTACAO, SOBRETUDO, TEORIA DAS FUNCOES RECURSIVAS, TESE DE CHURCH E MODELOS DE COMPUTABILIDADE. CONCEITOS DE CARDINALIDADE E TEORIA DOS CONJUNTOS (REVISAO). DECIBILIDADE, SEMI-DECIDIBILIDADE E INDECIDIBILIDADE. INDECIDIBILIDADE DO PROBLEMA DA PARADA EM LINGUAGENS DE PROGRAMACAO. FUNCOES PRIMITIVAS RECURSIVAS E RECURSIVAS GERAIS. LAMBDA-CALCULUS E EQUIVALENCIA COM FUNCOES RECURSIVAS. TESE DE CHURCH. INDECIDIBILIDADE DA LOGICA DE PRIMEIRA. REPRESENTACAO DAS FUNCOES RECURSIVAS EM LOGICA DE PRIMEIRA ORDEM. FAMILIAS ABSTRATAS DE ALGORITMOS E EVIDENCIAS FORTES PARA A TESE DE CHURCH. (TEOREMAS DE RICE E DE ROGERS). MAQUINA DE TURING E COMPLEXIDADE COMPUTACIONALE. CLASSES DE PROBLEMAS. NP-COMPLETUDE, CONP-COMPLETUDE. LOGICA E COMPLEXIDADE COMPUTACIONAL. BIBLIOGRAFIA: 1) CARNIELLI, WALTER; EPSTEIN, R. COMPUTABILITY: COMPUTABLE FUNCTIONS, LOGIC, AND THE FOUNDATIONS OF MATHEMATICS. PACIFIC GROVE, CA.: WADSWORTH AND BROOKS, 1989. 2) DIVERIO, TIARAJU ASMUZ; MENEZES, PAULO FERNANDO BLAUTH. TEORIA DA COMPUTACAO: MAQUINAS UNIVERSAIS E COMPUTABILIDADE. PORTO ALEGRE: SAGRA-LUZATTO, 1999. 3) VELOSO, PAULO A. S.; TOSCANI, LAIRA V. COMPLEXIDADE. PORTO ALEGRE: SAGRA-LUZATTO, 2001.
+Pré-requisitos
+Nenhum pre-requisito encontrado para INF2218
+Co-requisitos
+Nenhum co-requisito encontrado para INF2218
+Última atualização da ementa: 04/07/2013
+
+Ementa da disciplina JUR1809:
+Ementa
+Conceitos fundamentais de propriedade intelectual, relações com ramos do direito (laboral e civil) e com a propriedade industrial (além do direito comercial). Autonomia do direito de autor. Proteção constitucional. Conceitos. Princípios do direito de autor. Conteúdo do direito de autor: valores existenciais e patrimoniais. Titularidade: presunções e ficções. Prazo de proteção. Registro de obras. Modalidades de obras protegíveis pela lei 9.610/98. Obras originárias e derivadas. A comunicação da obra ao público. Transformações (criativas e sem originalidade autônoma), traduções, adaptações e utilização de criações intelectuais, domínio público. Limitações do direito de autor (rol exemplificativo). Obras não protegidas por políticas públicas. Criações intelectuais nos meios universitários. As modalidades contratuais no direito de autor. Proteção jurídica do direito a imagem. Regimes especiais (obra de arte plástica, obra fotográfica e obra cinema topográfica, streaming). Direitos conexos (adaptações e intérpretes). Proteção jurídica do software. Tutela Procedimental dos direitos autorais (ações civis e penais). Breves notas sobre o direito de autor no âmbito internacional.
+Bibliografia
+BITTAR, Carlos Alberto.  Direito de Autor 3ª edição; Rio de Janeiro: Forense Universitária, 2001.
+ASCENSÃO, José de Oliveira. Direitos Autorais.; Rio de Janeiro:: Renovar, 1997.
+BARBOSA, Denis Borges. Questões Fundamentais de Direito de Autor.; Rio de Janeiro:: Lumen Juris,, 2012.
+Bibliografia Complementar
+BRANCO JÚNIOR, Sérgio Vieira. Domínio Público no Direito Autoral Brasileiro.; Rio de Janeiro:: Lumen Juris,, 2011.
+BARBOSA, Pedro Marcos Nunes Barbosa. Originalidade em Crise.; Rio de Janeiro: Revista do IBDCIVIL, número 15, 2018.
+LESSIG, Lawrence. Free Culture.; Nova Iorque:: Penguin Books, 2004.
+Pré-requisitos
+100 créditos
+ou
+ART1021
+ou
+ART1022
+ou
+JUR1802
+ou
+JUR1831
+Co-requisitos
+Nenhum co-requisito encontrado para JUR1809
+Última atualização da ementa: 07/10/2020
+
+Ementa da disciplina LET1920:
+Ementa
+Produção de texto argumentativo centralizado em requisitos de clareza, precisão e unidade. Memoriais descritivos. Redação cientifica. Retórica.
+Bibliografia
+GARCIA, O. M. Comunicação em prosa moderna; Rio de Janeiro: Fundação Getúlio Vargas, 1988.
+Bibliografia Complementar
+Nenhuma biliografia complementar encontrada para LET1920
+Pré-requisitos
+Nenhum pre-requisito encontrado para LET1920
+Co-requisitos
+Nenhum co-requisito encontrado para LET1920
+Última atualização da ementa: 09/04/2014
+
