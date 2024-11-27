@@ -28,11 +28,13 @@
         <h1> 4.2 </h1>
       </div>
       <div class="grafico">
-        <p> ⭐⭐⭐⭐⭐ </p>
-        <p> ⭐⭐⭐⭐ </p>
-        <p> ⭐⭐⭐ </p>
-        <p> ⭐⭐ </p>
-        <p> ⭐ </p>
+        <div class="star-rating-display">
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+        </div>
       </div>
     </div>
     <div class="comentarios">
@@ -67,7 +69,7 @@
   </div>
 </div>
 
-<!-- pop-up da review -->
+<!-- Review Popup -->
 <div class="popup-overlay">
   <div class="popup-content">
     <div class="popup-header">
@@ -75,6 +77,14 @@
       <button class="popup-close">&times;</button>
     </div>
     <form class="popup-form">
+      <div class="interactive-star-rating">
+        <span class="star" data-rating="1">★</span>
+        <span class="star" data-rating="2">★</span>
+        <span class="star" data-rating="3">★</span>
+        <span class="star" data-rating="4">★</span>
+        <span class="star" data-rating="5">★</span>
+      </div>
+      <input type="hidden" name="rating" id="selected-rating" value="0">
       <input type="text" placeholder="Seu nome (opcional)" maxlength="50">
       <textarea placeholder="Sua avaliação (máximo 300 caracteres)" maxlength="300"></textarea>
       <div class="char-count">0 / 300</div>
@@ -117,7 +127,21 @@
     margin-bottom: 20px;
   }
 
-  /* Popup styles */
+  /* Sistema de estrelas css */
+  .star-rating-display .star, 
+  .interactive-star-rating .star {
+    color: #ddd;
+    font-size: 40px;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+
+  .star-rating-display .star.active,
+  .interactive-star-rating .star.active {
+    color: gold;
+  }
+
+  /*css do popup*/
   .popup-overlay {
     display: none;
     position: fixed;
@@ -154,6 +178,12 @@
     cursor: pointer;
   }
 
+  .interactive-star-rating {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
   .popup-form {
     display: flex;
     flex-direction: column;
@@ -184,7 +214,7 @@
   }
 
   .submit-review {
-    background-color: #354d5e;
+    background-color: #4CAF50;
     color: white;
     border: none;
     padding: 10px;
@@ -201,44 +231,108 @@
     const reviewTextarea = document.querySelector('.popup-form textarea');
     const charCount = document.querySelector('.char-count');
     const popupForm = document.querySelector('.popup-form');
+    const stars = document.querySelectorAll('.interactive-star-rating .star');
+    const ratingInput = document.getElementById('selected-rating');
+    const displayStars = document.querySelectorAll('.star-rating-display .star');
+    const ratingValue = 4.2; // The rating to display
 
-    // Abrir popup
+    // Function to update display stars
+    function updateDisplayStars(rating) {
+        displayStars.forEach((star, index) => {
+            if (index < Math.floor(rating)) {
+                star.classList.add('active');
+            } else if (index === Math.floor(rating) && rating % 1 !== 0) {
+                // Partially fill the next star for decimal ratings
+                star.classList.add('active');
+                star.style.background = `linear-gradient(to right, gold ${(rating % 1) * 100}%, #ddd ${(rating % 1) * 100}%)`;
+                star.style.webkitBackgroundClip = 'text';
+                star.style.webkitTextFillColor = 'transparent';
+            } else {
+                star.classList.remove('active');
+                star.style.background = 'none';
+            }
+        });
+    }
+
+    // Initial display of stars
+    updateDisplayStars(ratingValue);
+
+    // Star Rating Interaction
+    stars.forEach(star => {
+      star.addEventListener('mouseover', function() {
+        const rating = this.getAttribute('data-rating');
+        stars.forEach((s, index) => {
+          if (index < rating) {
+            s.classList.add('active');
+          } else {
+            s.classList.remove('active');
+          }
+        });
+      });
+
+      star.addEventListener('click', function() {
+        const rating = this.getAttribute('data-rating');
+        ratingInput.value = rating;
+        stars.forEach((s, index) => {
+          if (index < rating) {
+            s.classList.add('active');
+          } else {
+            s.classList.remove('active');
+          }
+        });
+      });
+    });
+
+    // Popup reset when mouse leaves
+    document.querySelector('.interactive-star-rating').addEventListener('mouseleave', function() {
+      stars.forEach((s, index) => {
+        if (index < ratingInput.value) {
+          s.classList.add('active');
+        } else {
+          s.classList.remove('active');
+        }
+      });
+    });
+
+    // Open popup
     compartilharBtn.addEventListener('click', function() {
       popupOverlay.style.display = 'flex';
     });
 
-    // Fechar popup
+    // Close popup
     popupClose.addEventListener('click', function() {
       popupOverlay.style.display = 'none';
     });
 
-    // Fechar popup quando clicar fora do popup
+    // Close popup when clicking outside
     popupOverlay.addEventListener('click', function(e) {
       if (e.target === popupOverlay) {
         popupOverlay.style.display = 'none';
       }
     });
 
-    // Contador de caractere do comentario/review
+    // Character count for review
     reviewTextarea.addEventListener('input', function() {
       const currentLength = this.value.length;
       charCount.textContent = `${currentLength} / 300`;
     });
 
-    // Envio do formulario(substituir isso daqui depois com a logica correta)
+    // Form submission (you would replace this with actual submission logic)
     popupForm.addEventListener('submit', function(e) {
       e.preventDefault();
-      const name = document.querySelector('.popup-form input').value;
+      const name = document.querySelector('.popup-form input[type="text"]').value;
       const review = reviewTextarea.value;
+      const rating = ratingInput.value;
 
-      if (review.trim() !== '') {
-        // aqui alterar depois para mandar a review para o banco de dados e armazenar
+      if (review.trim() !== '' && rating > 0) {
+        // Here you would typically send the review data to your backend
         console.log('Name:', name);
+        console.log('Rating:', rating);
         console.log('Review:', review);
         alert('Avaliação enviada com sucesso!');
         popupOverlay.style.display = 'none';
       } else {
-        alert('Por favor, escreva sua avaliação');
+        alert('Por favor, dê uma nota e escreva sua avaliação');
       }
     });
   });
