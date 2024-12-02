@@ -1,5 +1,6 @@
 from django.shortcuts import render
-from app_disciplines_info.models import Disciplina, Professor
+from datetime import datetime
+from app_disciplines_info.models import Disciplina, Professor, Review
 
 def consultar_view(request):
     if request.method == 'POST':
@@ -43,6 +44,7 @@ def disciplina_view(request, codigo, professor):
     disciplina = disciplina.filter(professor__nome=professor)
     horarios = disciplina.values_list('horario', flat=True) 
     dias = disciplina.values_list('dia', flat=True)
+    media = disciplina.calcular_media()
     listaHorarios =[]
 
     for i in range(len(horarios)):
@@ -53,7 +55,22 @@ def disciplina_view(request, codigo, professor):
         'nome': disciplina[0].nome,
         'professor': disciplina[0].professor.nome,
         'horarios' : listaHorarios,
-        'ementa': disciplina[0].ementa
+        'ementa': disciplina[0].ementa,
+        'media': media
     }
 
     return render(request, 'disciplina.html', objetoTela)
+
+def salvar_feedback_view(request):
+    if request.method == 'POST':
+        nome = request.POST.get('nome')
+        experiencia = request.POST.get('experiencia')
+        nota = float(request.POST.get('nota'))
+
+        Review.objects.create(
+            autor=nome,
+            experiencia=experiencia,
+            dificuldade=nota,
+            criadoEm = datetime.now()
+        )
+        return
